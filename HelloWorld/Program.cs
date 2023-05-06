@@ -9,6 +9,9 @@
             var secondNum = 10;
 
             Console.Write("Enter a 5 or a 10\n");
+
+            try{
+
             var num = Convert.ToInt32(Console.ReadLine());
 
             if (num.Equals(firstNum))
@@ -22,6 +25,12 @@
             else
             {
                 Console.WriteLine("Wrong!");
+            }
+            }
+
+            catch
+            {
+                Console.WriteLine("That's not a number!");
             }
 
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "spvzZiUmEUWdRth51hcEuW2YXLUibc065HzuCnaVNvDYrSvpf4eBi5Bh95efpXR+K5IYreNnNkeb6nJEmTGwjw==",
+  "dgSpecHash": "OtdchaxsUI0A1X201I/Roc3uLWdGUfGjmnoEcYWjkPXiOrUrWC5vQy2Q4u108ciRXm1V0vwStBSSmHADyNUzMA==",
   "success": true,
-  "projectFilePath": "C:\\Coding\\HTTPDataTransfer\\HTTPDataTransfer.csproj",
+  "projectFilePath": "C:\\Coding\\HttpDataTransfer\\HttpDataTransfer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -10,18 +10,26 @@ copyButton.addEventListener("click", copy);
 
 function processInput() {
     const input = inputText.value;
-    const result = sql(input);
+    const result = sqlIn(input);
     outputText.value = result;
 }
 
-function sql(input) {
+function sqlIn(input) {
     var list = input.split('\n');
     var newList = [];
 
+
     for(var i = 0; i < list.length; i++) {
-        newList.push("'"+list[i]+"'");
-    }
-    console.log(newList);
+
+        if (list[i] === "") {
+            //do nothing
+        }
+        else {
+            newList.push("'"+list[i]+"'");
+        }
+
+    };
+    console.log(list.length);
     return newList;
 }
 

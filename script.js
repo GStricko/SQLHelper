@@ -1,8 +1,10 @@
 const inputText = document.getElementById("inputText");
 const button = document.getElementById("processButton");
 const outputText = document.getElementById("outputText");
+const clearButton = document.getElementById("clearButton");
 
 button.addEventListener("click", processInput);
+clearButton.addEventListener("click", clear);
 
 function processInput() {
     const input = inputText.value;
@@ -21,3 +23,8 @@ function sql(input) {
     return newList;
 }
 
+
+function clear() {
+    inputText.value = "";
+    outputText.value = "";
+}

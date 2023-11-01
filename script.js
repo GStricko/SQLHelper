@@ -30,7 +30,7 @@ function sqlIn(input) {
 
     };
     console.log(list.length);
-    return newList;
+    return `IN (${newList})`;
 }
 
 function clear() {
